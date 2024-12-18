@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- head -->
+      <header>
+        <a href="#"><img   src="img/logo.png" class="logo" alt="" /></a>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">proudacts</a></li>
+          <li><a href="#">Newos</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <!-- text -->
+      <div class="content">
+        <div class="text">
+          <h2>iphone 13 pro max</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+            praesentium temporibus minus?
+          </p>
+          <button>All products</button>
+        </div>
+        <!-- photos -->
+        <div class="photos">
+          <div class="imgs"><img id="photoar" src="/img/0.png" alt="" /></div>
+        </div>
+      </div>
+      <div class="icons">
+        <img id="imgs" onclick="photos(this.src); color('#FFF380')" src="/img/0.png" >
+        <img id="imgs" onclick="photos(this.src); color('#82CAFA')" src="/img/1.png" >
+        <img onclick="photos(this.src); color('#000')"  id="imgs" src="/img/2.png" >
+        <img onclick="photos(this.src); color('#EDDA74')" id="imgs" src="/img/3.png" >
+        <img onclick="photos(this.src); color('#FF0000')" id="imgs" src="/img/4.png" >
+      </div>
+    </div>
+
+    <script src="java.js"></script>
+  </body>
+</html>
